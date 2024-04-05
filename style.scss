@@ -1,0 +1,54 @@
+$font: "Poppins", sans-serif;
+
+.container-fluid {
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.container-calculator {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: $font;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: $font;
+    font-weight: 600;
+}
+
+.input-group-text {
+    border: 0;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+
+.form-control{
+    background-color: rgb(110, 110, 110);
+    color: white;
+    border: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+hr {
+    width: 35%;
+    height: 15px;
+    border-width: 4px;
+    opacity: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
